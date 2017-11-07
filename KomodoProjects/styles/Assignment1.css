@@ -1,0 +1,16 @@
+#Area1 {display: none; position: relative; height: 100%;
+width: 600px; float: none;}
+
+#Area2  {display: none; position: relative; height: 100%;
+width: 600px; float: none;}
+
+#Area3 {display: none; position: relative; height: 100%;
+width: 600px; float: none;}
+
+footer {position: relative; width: 100%; bottom: 0;
+font-style: italic;
+text-align: center;
+background-color: rgb(255,105,180);
+}
+
+

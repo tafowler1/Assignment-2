@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+     <script src="JS/Assignment1.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/Assignment1.css" />
+    <title>Mobile Applications</title>
+</head>
+
+<body>
+     <header>
+    <h1>Assignment 1</h1>
+    <br>
+    <hr>
+    <br>
+     </header>
+     <section id="title">
+    <select onchange= "MenuChoice (value)" id="menu" class="menu">
+        <option value="None">Please select an option</option>
+        <option value="Area1">Customer List</option>
+        <option value="Area2">Order History</option>
+        <option value="Area3">About</option>
+    </select>
+</section>
+<section id="Area1" class="area1">
+     <h2> Customer List </h2>
+     <br>
+     <button onclick="ListCustomers()" class="button"> Create List</button>
+     <hr>
+     <br>
+     <p id="listcustomers">
+         
+     </p>
+      
+     
+</section>
+
+<section id="Area2" class="area2">
+     <h2> Order History</h2>
+     <br><label>Customer ID</label>
+    <input type="text" id="CustID">
+    <button onclick="GetOrderHistory ()" id="orderhistory" class="button"> Go </button>
+    <hr>
+    <br>
+    <label id="orderdisplay" >Display Order History</label>
+     
+
+     <br>
+     
+</section>
+
+<section id="Area3" class="area3">
+     <h2> About </h2>
+</section>
+<br>
+<br>
+      <a href="http://student.business.uab.edu">Student Web Site</a>
+<br>
+  <footer> Tawny Fowler tafowler@uab.edu</footer>
+</body>
+</html>
