@@ -14,3 +14,4 @@ background-color: rgb(255,105,180);
 }
 
 
+table { border: 2px solid; table-layout: auto; border-color: black; padding: 2px; text-align: center;}
