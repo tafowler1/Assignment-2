@@ -55,7 +55,7 @@ function GenerateOutput(result)
         display+="<tr><td>"+customerid+"</td><td>"+companyname+"</td><td>"+city+"</td></tr>";
         
     }
-    display+="</table>";
+    display+="</table>" + '<a href="javascript:history.go(Area1)">Go Back</a>';
     document.getElementById("listcustomers").innerHTML=display;
 }
 }
@@ -83,7 +83,7 @@ function GenerateOutput(result)
         {
             display+="<tr><td>"+ result[count].ProductName + "</td><td>"+ result[count].Total +"</td></tr>";
         }
-        display+="</table>";
+        display+="</table>" + '<a href="javascript:history.go(Area1)">Go Back</a>';
         document.getElementById("listcustomers").innerHTML=display;
          MenuChoice("Area1");
     }
